@@ -1,0 +1,22 @@
+<channel
+   name="TestChannel4"
+   guid="2C6ED94CED6841A1BC9E3CD9AD953141"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="TestChannel4-To-ImrKrAedwa1jV2"
+      commit_id="2807ab52a0f9ef9ae1d9924ea992f46cd54704fb"
+      commit_comment="ok">
+      <dequeue_list>
+         <dequeue
+            source_name="TemplateChannel1"
+            dequeue_guid="8859550FD1E58F29426A7F67857E9721"/>
+         <dequeue
+            source_name="TestChannel1"
+            dequeue_guid="8CA15010219F807CCC21466A967814ED"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_channel/>
+</channel>

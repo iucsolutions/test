@@ -1,0 +1,15 @@
+{
+    "LocalDependencies": [
+        "mapHL7.lua"
+    ],
+    "LuaDependencies": [],
+    "OtherDependencies": [
+        "IUCDemo.vmd"
+    ],
+    "timestamp": "1536739683",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
